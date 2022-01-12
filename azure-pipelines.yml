@@ -1,8 +1,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'ubuntu-20.04'
+pool: Local
 
 steps:
 - task: katalonTask@1
